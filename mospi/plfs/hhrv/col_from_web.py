@@ -4,10 +4,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
 import time
+import os
 
 # Launch browser
 driver = webdriver.Chrome()
 driver.get("https://microdata.gov.in/NADA/index.php/catalog/213/data-dictionary/F6?file_name=hhrv")
+
+destination_folder = "C:/Users/nishn/OneDrive/Desktop/BTP/Data BTP/Data/mospi/plfs/hhrv"
+output_path = os.path.join(destination_folder, "column_labels_from_web.json")
 
 input("➡️ Press Enter after the page is fully loaded...")
 
@@ -23,7 +27,6 @@ rows = driver.find_elements(By.XPATH, "//div[contains(@class, 'row') and contain
 
 i=0
 for row in rows:
-    
     try:
         # Scroll to the row and click it
         driver.execute_script("arguments[0].scrollIntoView(true);", row)
@@ -55,8 +58,9 @@ for row in rows:
     i=i+1
 
 # Save mappings
-with open("column_labels_from_web.json", "w", encoding="utf-8") as f:
+with open(output_path, "w", encoding="utf-8") as f:
     json.dump(column_labels, f, indent=2, ensure_ascii=False)
+
 
 print(f"✅ Extracted {len(column_labels)} column labels.")
 driver.quit()
