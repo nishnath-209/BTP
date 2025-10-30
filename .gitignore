@@ -9,5 +9,5 @@ __pycache__/
 .venv/
 venv/
 
-# Output files (Good practice to ignore these)
+# Output files
 scores/
