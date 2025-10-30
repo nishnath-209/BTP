@@ -8,21 +8,26 @@ import time
 import random
 import os
 import concurrent.futures
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ---------------------- API KEYS ----------------------
-keys = {
-    'gemini': "AIzaSyAsoJ9X12EmXaus1kPiCXnN99KI-iQsEFA",
-    'openroute': "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"
-}
+OPENROUTE_API_KEY = os.environ.get("OPENROUTE_API_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
-# ---------------------- CLIENT SETUP ----------------------
+# Check if the required key is present
+if not OPENROUTE_API_KEY:
+    raise ValueError("OPENROUTE_API_KEY not found in .env file. Please add it.")
 
-openroute_client = OpenAI(
+
+Evaluator_client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=keys['openroute']
+    api_key=OPENROUTE_API_KEY,
 )
 
-gemini_client = genai.Client(api_key=keys['gemini'])
+
+gemini_client = genai.Client(api_key = GEMINI_API_KEY)
 
 # ---------------------- FILE UTILS ----------------------
 queries_path = "queries.json"

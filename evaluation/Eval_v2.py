@@ -7,17 +7,22 @@ import re
 import os
 import time
 import random
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ---------------------- API KEYS ----------------------
-keys = {
-    'gemini': "AIzaSyAsoJ9X12EmXaus1kPiCXnN99KI-iQsEFA",
-    'openroute': "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"
-    #'openroute': "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"
-}
+OPENROUTE_API_KEY = os.environ.get("OPENROUTE_API_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+
+# Check if the required key is present
+if not OPENROUTE_API_KEY:
+    raise ValueError("OPENROUTE_API_KEY not found in .env file. Please add it.")
+
 
 Evaluator_client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=keys['openroute'],
+    api_key=OPENROUTE_API_KEY,
 )
 
 # ---------------------- FILE UTILS ----------------------
