@@ -1,0 +1,379 @@
+[
+    {
+        "query": "What is the average monthly wage(Rs.) for rural males regular wage/salaried employees  in Gujarat?",
+        "ground_truth": "15,839"
+    },
+    {
+        "query": "What is the average monthly wage(Rs.) for rural males regular wage/salaried employees in Himachal Pradesh?",
+        "ground_truth": "21,782"
+    },
+    {
+        "query": "How much does an urban female regular wage/salaried employees monthly earn(Rs.) in Bihar?",
+        "ground_truth": "22,247"
+    },
+    {
+        "query": "What is the total average monthly wage(Rs.) of a regular wage/salaried employees in Tamil Nadu?",
+        "ground_truth": "21,266"
+    },
+    {
+        "query": "What is the average monthly wage(Rs.) for a male regular wage/salaried employees in Andhra Pradesh?",
+        "ground_truth": "23,653"
+    },
+    {
+        "query": "What is the average monthly wage(Rs.) for a female regular wage/salaried employees in Andhra Pradesh?",
+        "ground_truth": "16,243"
+    },
+    {
+        "query": "What is the average monthly wage(Rs.) for a male regular wage/salaried employees in Telangana?",
+        "ground_truth": "30,289"
+    },
+    {
+        "query": "Which State in India has biggest gender pay gap among regular wage/salaried employeess?",
+        "ground_truth": "Kerala"
+    },
+    {
+        "query": "Which State in India has highest pay gap for casual labourers?",
+        "ground_truth": "Delhi"
+    },
+    {
+        "query": "How much does an rural female self employee earn(Rs.) monthly in Bihar?",
+        "ground_truth": "4,909"
+    },
+    {
+        "query": "How much does an self employed male earn(Rs.) monthly in Andhra pradesh?",
+        "ground_truth": "20,002"
+    },
+    {
+        "query": "How much does an self employed female earn(Rs.) monthly in Arunachal pradesh?",
+        "ground_truth": "7,635"
+    },
+    {
+        "query": "How much does an self employed person earn(Rs.) monthly in Chhattisgarh?",
+        "ground_truth": "10,760"
+    },
+    {
+        "query": "How much does an self employed person earn(Rs.) monthly in Chandigarh?",
+        "ground_truth": "42,237"
+    },
+    {
+        "query": "How much does an self employed urban male earn(Rs.) monthly in Chandigarh?",
+        "ground_truth": "44,416"
+    },
+    {
+        "query": "How much does an self employed urban male earn(Rs.) monthly in Telangana?",
+        "ground_truth": "26,387"
+    },
+    {
+        "query": "How much does an self employed urban female earn(Rs.) monthly in Telangana?",
+        "ground_truth": "9,222"
+    },
+    {
+        "query": "How much does an self employed rural male earn(Rs.) monthly in Telangana?",
+        "ground_truth": "18,632"
+    },
+    {
+        "query": "How much does an self employed rural female earn(Rs.) monthly in Telangana?",
+        "ground_truth": "8,308"
+    },
+    {
+        "query": "What percentage of workers in construction are casual labourers in India?",
+        "ground_truth": "80.6"
+    },
+    {
+        "query": "What percentage of workers in agriculture are self employed in India?",
+        "ground_truth": "82.0"
+    },
+    {
+        "query": "What percentage of rural male workers in agriculture are self-employed in India?",
+        "ground_truth": "83.6"
+    },
+    {
+        "query": "What proportion of rural male manufacturing workers are regular wage/salaried employees?",
+        "ground_truth": "51.4"
+    },
+    {
+        "query": "What percentage of rural male workers in construction are casual labourers?",
+        "ground_truth": "83.1"
+    },
+    {
+        "query": "Which industry has the highest proportion of casual labour among rural males?",
+        "ground_truth": "Construction"
+    },
+    {
+        "query": "Are urban females more likely than rural females to be regular wage workers in manufacturing?",
+        "ground_truth": "Yes"
+    },
+    {
+        "query": "Compare the proportion of self-employed workers in manufacturing between uban males and urban females.",
+        "ground_truth": "Higher Proportion of women workers than male workers"
+    },
+    {
+        "query": "What percentage of rural female workers in construction are casual labourers?",
+        "ground_truth": "98.6"
+    },
+    {
+        "query": "What percentage of rural female workers in trade industry are self-employed?",
+        "ground_truth": "86.2"
+    },
+    {
+        "query": "What percentage of workers in mining & quarrying industry are regular wage/salaried employees?",
+        "ground_truth": "64.4"
+    },
+    {
+        "query": "What percentage of workers in agriculture industry are regular wage/salaried employees?",
+        "ground_truth": "0.9"
+    },
+    {
+        "query": "What percentage of female workers in India are regular wage/salaried employees?",
+        "ground_truth": "15.9"
+    },
+    {
+        "query": "What is the average wage earnings per day of rural male from casual labour work?",
+        "ground_truth": "429.97"
+    },
+    {
+        "query": "What is the average wage earnings per day of rural female from casual labour work?",
+        "ground_truth": "282.17"
+    },
+    {
+        "query": "What is the average wage earnings per day of rural person from casual labour work?",
+        "ground_truth": "392.0"
+    },
+    {
+        "query": "What is the average wage earnings per day of urban person from casual labour work?",
+        "ground_truth": "501.05"
+    },
+    {
+        "query": "What is the average wage earnings per day of urban female from casual labour work?",
+        "ground_truth": "341.19"
+    },
+    {
+        "query": "What is the average wage earnings per day of female from casual labour work?",
+        "ground_truth": "287.54"
+    },
+    {
+        "query": "What is the average wage earnings per day of male from casual labour work?",
+        "ground_truth": "446.59"
+    },
+    {
+        "query": "What is the average wage earnings per day of a person from casual labour work?",
+        "ground_truth": "408.48"
+    },
+    {
+        "query": "What is the average monthly wage/salary for a regular wage/salaried employee in India?",
+        "ground_truth": "21,103"
+    },
+    {
+        "query": "What is the literacy rate among rural Hindu males?",
+        "ground_truth": "83.2"
+    },
+    {
+        "query": "What is the literacy rate among Urban Muslims?",
+        "ground_truth": "81.9"
+    },
+    {
+        "query": "What is the literacy rate among urban Hindu females?",
+        "ground_truth": "84.3"
+    },
+    {
+        "query": "What is the literacy rate among Skihism religion females?",
+        "ground_truth": "79.4"
+    },
+    {
+        "query": "What is the overall literacy rate among urban populations in India?",
+        "ground_truth": "87.6"
+    },
+    {
+        "query": "What is the overall literacy rate among rural populations in India?",
+        "ground_truth": "76.4"
+    },
+    {
+        "query": "What is the overall literacy rate in India?",
+        "ground_truth": "79.7"
+    },
+    {
+        "query": "What is the overall literacy rate among urban male populations in India?",
+        "ground_truth": "91.4"
+    },
+    {
+        "query": "What is the overall literacy rate among urban female populations in India?",
+        "ground_truth": "83.6"
+    },
+    {
+        "query": "What percentage of rural female workers in Andhra Pradesh are self-employed?",
+        "ground_truth": "48.9"
+    },
+    {
+        "query": "What percentage of rural female workers in Andhra Pradesh are regular wage/salaried employees?",
+        "ground_truth": "12.7"
+    },
+    {
+        "query": "What percentage of urban male workers in Delhi are regular wage/salaried employees?",
+        "ground_truth": "52.9"
+    },
+    {
+        "query": "What percentage of urban male workers in Andhra Pradesh are self-employed?",
+        "ground_truth": "37.6"
+    },
+    {
+        "query": "What percentage of workers in Bihar are self-employed?",
+        "ground_truth": "67.2"
+    },
+    {
+        "query": "What percentage of workers in Maharashtra are regular wage/salaried employees?",
+        "ground_truth": "31.9"
+    },
+    {
+        "query": "Which State has the highest percentage of self-employed persons overall?",
+        "ground_truth": "Uttar Pradesh"
+    },
+    {
+        "query": "Which State has the lowest percentage of self-employed persons overall?",
+        "ground_truth": "Dadra & Nagar Haveli"
+    },
+    {
+        "query": "What percentage of workers in Gujarat are self-employed?",
+        "ground_truth": "56.3"
+    },
+    {
+        "query": "What percentage of workers in Kerala are regular wage or salaried employees?",
+        "ground_truth": "38.9"
+    },
+    {
+        "query": "What percentage of workers in Tamil Nadu are casual labourers?",
+        "ground_truth": "26.7"
+    },
+    {
+        "query": "Which State has the highest percentage of casual labourers?",
+        "ground_truth": "Meghalaya (30.0%)"
+    },
+    {
+        "query": "Which State has the lowest percentage of casual labourers?",
+        "ground_truth": "Arunachal Pradesh (4.4%)"
+    },
+    {
+        "query": "What percentage of workers in Delhi are regular wage or salaried employees?",
+        "ground_truth": "55.8"
+    },
+    {
+        "query": "What percentage of workers in Maharashtra are self-employed?",
+        "ground_truth": "47.0"
+    },
+    {
+        "query": "What percentage of workers in Uttar Pradesh are casual labourers?",
+        "ground_truth": "14.4"
+    },
+    {
+        "query": "What percentage of male workers in Andhra Pradesh are self-employed?",
+        "ground_truth": "49.7"
+    },
+    {
+        "query": "What percentage of male workers in Tamil Nadu are regular wage or salaried employees?",
+        "ground_truth": "40.0"
+    },
+    {
+        "query": "What percentage of rural female workers in Bihar are self-employed?",
+        "ground_truth": "83.7"
+    },
+    {
+        "query": "What percentage of rural female workers in Bihar are casual labourers?",
+        "ground_truth": "11.0"
+    },
+    {
+        "query": "What percentage of urban male workers in Delhi are self-employed?",
+        "ground_truth": "40.6"
+    },
+    {
+        "query": "What percentage of urban female workers in Delhi are regular wage or salaried employees?",
+        "ground_truth": "70.8"
+    },
+    {
+        "query": "Which State has the highest percentage of regular wage or salaried urban male workers?",
+        "ground_truth": "Dadra & Nagar Haveli (83.7%)"
+    },
+    {
+        "query": "Which State has the lowest percentage of regular wage or salaried urban female workers?",
+        "ground_truth": "Bihar"
+    },
+    {
+        "query": "What percentage of male workers in Rajasthan are self-employed?",
+        "ground_truth": "60.4"
+    },
+    {
+        "query": "What percentage of female workers in Rajasthan are regular wage or salaried employees?",
+        "ground_truth": "10.4"
+    },
+    {
+        "query": "What percentage of urban male workers in Gujarat are regular wage or salaried employees?",
+        "ground_truth": "56.4"
+    },
+    {
+        "query": "What percentage of urban male workers in Haryana are regular wage or salaried employees?",
+        "ground_truth": "52.6"
+    },
+    {
+        "query": "What percentage of urban female workers in Haryana are self-employed?",
+        "ground_truth": "33.7"
+    },
+    {
+        "query": "What percentage of male workers in Andhra Pradesh are in agriculture sector?",
+        "ground_truth": "36.4"
+    },
+    {
+        "query": "What percentage of rural male workers in Delhi are in agriculture sector?",
+        "ground_truth": "5.8"
+    },
+    {
+        "query": "What percentage of urban male workers in Kerala are in agriculture sector?",
+        "ground_truth": "10.9"
+    },
+    {
+        "query": "Which state has the highest unemployment rate in india?",
+        "ground_truth": "Lakshadweep"
+    },
+    {
+        "query": "Which state has the lowest unemployment rate in india?",
+        "ground_truth": "Tripura"
+    },
+    {
+        "query": "Which is the unemployment rate of females in Goa?",
+        "ground_truth": "16.7"
+    },
+    {
+        "query": "Which is the unemployment rate of urban males in Andhra Pradesh?",
+        "ground_truth": "5.5"
+    },
+    {
+        "query": "Which is the unemployment rate of rural males in Himachal Pradesh?",
+        "ground_truth": "3.2"
+    },
+    {
+        "query": "What is the Worker Population Ratio for urban female workers in Kerala?",
+        "ground_truth": "27.0"
+    },
+    {
+        "query": "What is the Worker Population Ratio for female workers in India?",
+        "ground_truth": "30.7"
+    },
+    {
+        "query": "What is the Worker Population Ratio for male workers in India?",
+        "ground_truth": "56.4"
+    },
+    {
+        "query": "What is the Worker Population Ratio for rural male workers in West Bengal?",
+        "ground_truth": "62.1"
+    },
+    {
+        "query": "What is the Worker Population Ratio in Delhi?",
+        "ground_truth": "35.2"
+    },
+    {
+        "query": "Which State has the highest Worker Population Ratio?",
+        "ground_truth": "Sikkim"
+    },
+    {
+        "query": "Which State has the lowest Worker Population Ratio?",
+        "ground_truth": "Bihar"
+    }
+]
+

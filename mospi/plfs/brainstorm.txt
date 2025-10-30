@@ -1,0 +1,22 @@
+
+"Which state has the highest sex ratio (females per 1000 males) in the rural sector"
+"What is the average household size in the state of [State_name]"
+"Which religious group has the highest literacy rate at the national level"
+
+"Which state has the highest percentage of graduates (or above) in its population"
+"What percentage of the population in [State_name] has completed secondary education"
+"List the top 3 states with the highest percentage of individuals with formal vocational/technical training"
+"What is the literacy gap between males and females in [State_name]"
+
+
+"What is the male Worker Population Ratio (WPR) in the urban sector of [State_name]"
+"Which state has the highest unemployment rate among the youth (15-29 years)"
+"List the top 5 states with the highest percentage of the workforce engaged in the agriculture sector."
+"What is the percentage of regular wage/salaried employees in the workforce of [State_name]"
+"In which state is the proportion of self-employed females the highest"
+"What are the top three industries that employ the most people in the state of [State_name]"
+
+"What is the overall literacy rate in [State_name]"
+"What is the total estimated monthly expenditure for the state of [State_name]"
+"List the top 5 states by total household expenditure"
+

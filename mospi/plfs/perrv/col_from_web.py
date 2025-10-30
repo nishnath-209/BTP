@@ -34,16 +34,18 @@ for row in rows:
         row.click()
 
         # ✅ Wait until the heading in expanded panel appears
-        panel = main_block.find_element(By.XPATH, "//div[contains(@class, 'row var-info-panel') and contains(@style, 'display: block')]")
-        
-        time.sleep(1)
+        panel = WebDriverWait(main_block, 10).until(
+                EC.visibility_of_element_located((By.XPATH, "//div[contains(@class, 'row var-info-panel') and contains(@style, 'display: block')]")
+            ))
         heading_elem = panel.find_element(By.XPATH, ".//div[contains(@class, 'variable-container')]//h2")
         heading_text = heading_elem.text.strip()
         print(heading_text)
 
         if '(' in heading_text and ')' in heading_text:
-            label = heading_text.split('(')[0].strip()
-            var_name = heading_text.split('(')[-1].split(')')[0].strip()
+            last_open = heading_text.rfind('(')
+            last_close = heading_text.rfind(')')
+            label = heading_text[:last_open].strip()
+            var_name = heading_text[last_open+1:last_close].strip()
         else:
             continue  # skip if malformed
 

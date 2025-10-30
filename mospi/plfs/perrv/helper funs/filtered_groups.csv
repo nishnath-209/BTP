@@ -1,0 +1,128 @@
+0,1,2
+Group,111,Legislators and Senior Officials
+Group,112,Managing Directors and Chief Executives
+Group,121,Business Services and Administration Managers
+Group,122,"Sales,Marketing and Development Managers" 
+Group,131,"Production Managers in Agriculture, Forestry"
+Group,132,"Manufacturing, Mining, Construction and"
+Group,133,Information and Communications Technology
+Group,134,Professional Services Managers
+Group,141,Hotel and Restaurant Managers
+Group,142,Retail and Wholesale Trade Managers
+Group,143,Other Services Managers
+Group,211,Physical and Earth Science Professionals
+Group,212,"Mathematicians, Actuaries and Statisticians"
+Group,213,Life Sciences Professionals
+Group,214,Engineering Professionals (Excluding
+Group,215,Electrotechnology Engineers
+Group,216,"Architects, Planners, Surveyors and Designers"
+Group,221,Medical Doctors
+Group,222,Nursing and Midwifery Professionals
+Group,223,Traditional and Complementary Medicine
+Group,224,Paramedical Practitioners
+Group,225,Veterinarians
+Group,226,Other Health Professionals
+Group,231,University and Higher Education Teachers
+Group,232,Vocational Education Teachers
+Group,233,Secondary Education Teachers
+Group,234,Primary School and Early Childhood Teachers
+Group,235,Other Teaching Professionals
+Group,241,Finance Professionals
+Group,242,Administration Professionals
+Group,243,"Sales, Marketing and Public Relations"
+Group,251,"Software and Application Developers, and"
+Group,252,Database and Network Professionals
+Group,261,Legal Professionals
+Group,262,"Librarians, Archivists and Curators"
+Group,263,Social and Religious Professionals
+Group,264,"Authors, Journalists and Linguists"
+Group,265,Creative and Performing Artists
+Group,311,Physical and Engineering Science Technicians
+Group,312,"Mining, Manufacturing and Construction"
+Group,313,Process Control Technicians
+Group,314,Life Science Technicians and Related Associate
+Group,315,"Ship and Aircraft Controllers, and Technicians"
+Group,321,Medical and Pharmaceutical Technicians
+Group,322,Nursing and Midwifery Associate Professionals
+Group,323,Traditional and Complementary Medicine
+Group,324,Veterinary Technicians and Assistants
+Group,325,Other Health Associate Professionals
+Group,331,Financial and Mathematical Associate
+Group,332,Sales and Purchasing Agents and Brokers
+Group,333,Business Service Agents
+Group,334,Administrative and Specialized Secretaries
+Group,335,Government Regulatory Associate Professionals
+Group,341,"Legal, Social and Religious Associate"
+Group,342,Sports and Fitness Workers
+Group,343,Administrative Associate Professionals
+Group,351,Information and Communication Technology
+Group,352,Telecommunication and Broadcasting
+Group,411,General Office Clerks
+Group,412,Secretaries (General)
+Group,413,Keyboard Operators
+Group,421,"Tellers, Money Collectors and Related"
+Group,422,Client Information Workers
+Group,431,Numerical Clerks
+Group,432,Material Recording and Transport Clerks
+Group,441,Other Clerical Support Workers
+Group,511,"Travel Attendants, Conductors and Guides"
+Group,512,Cooks
+Group,513,Waiters and Bartenders
+Group,514,"Hairdressers, Beauticians and Related"
+Group,515,Building and Housekeeping Supervisors
+Group,516,Other Personal Services Workers
+Group,521,Street and Market Salespersons
+Group,522,Shop Salespersons
+Group,523, Cashiers and Ticket Clerks
+Group,524, Other Sales Workers
+Group,531,Child Care Workers and Teachers' Aides
+Group,532,Personal Care Workers in Health Services
+Group,541,Protective Service Workers
+Group,611,Market Gardeners & Crop Growers
+Group,612,Animal Producers
+Group,613,Mixed Crop and Animal Workers
+Group,621,Forestry and Related Workers
+Group,622,"Fishery Workers, Hunters and Trappers"
+Group,631,Subsistence Crop Farmers
+Group,632,Subsistence Livestock Farmers
+Group,633,Subsistence Mixed Crop and Livestock
+Group,634,"Subsistence Fishers, Hunters, Trappers and"
+Group,711,Building Frames and Related Trades
+Group,712,Building Finishers and Related Trades
+Group,713,"Painters, Builders, Structure Cleaners and"
+Group,721,"Sheet and Structural Metal Workers,"
+Group,722,"Blacksmiths, Tool Makers and Related"
+Group,723,Machinery Mechanics and Repairers
+Group,731,Handicraft Workers
+Group,732,Printing Trades Workers
+Group,741,Electrical Equipment Installers and
+Group,742,Electronics and Telecommunication
+Group,751,Food Processing and Related Trade
+Group,752,"Wood Treaters, Cabinet Makers and"
+Group,753,Garment and Related Trades Workers
+Group,754,Other Craft and Related Workers
+Group,811,Mining and Mineral Processing Plant
+Group,812,Metal Processing and Finishing Plant
+Group,813,Chemical and Photographic Products Plant
+Group,814,"Rubber, Plastic and Paper Products"
+Group,815,"Textile, Fur and Leather Products Machine"
+Group,816,Food and Related Products Machine
+Group,817,Wood Processing and Papermaking Plant
+Group,818,Other Stationary Plant and Machine
+Group,821,Assemblers
+Group,831,Locomotive Engine Drivers and Related
+Group,832,"Car, Van and Motorcycle Drivers"
+Group,833,Heavy Truck and Bus Drivers
+Group,834,Mobile Plant Operators
+Group,835,Ships Deck Crews and Related Workers
+Group,911,"Domestic, Hotel and Office Cleaners and"
+Group,912,"Vehicle, Window, Laundry and Other Hand"
+Group,921,"Agricultural, Forestry and Fishery"
+Group,931,Mining and Construction Labourers
+Group,932,Manufacturing Labourers
+Group,933,Transport and Storage Labourers
+Group,941,Food Preparation Assistants
+Group,951,Street and Related Service Workers
+Group,952,Street Vendors (Excluding Food)
+Group,961,Refuse Workers
+Group,962,Other Elementary Workers
